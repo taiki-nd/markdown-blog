@@ -56,6 +56,12 @@ class PostsController < ApplicationController
     end
   end
 
+  # Ajax通信の記述を追記
+  def attach
+    attachment = Attachment.create! image: params[:image]
+    render json: { filename: url_for(attachment.image) }
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_post
