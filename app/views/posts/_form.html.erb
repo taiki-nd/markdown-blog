@@ -1,3 +1,6 @@
+<!-- 追記（画面で読み込むjsを読み込む） -->
+<%= javascript_pack_tag 'post' %>
+
 <%= form_with(model: post) do |form| %>
   <% if post.errors.any? %>
     <div id="error_explanation">
@@ -13,7 +16,8 @@
 
   <div class="field">
     <%= form.label :content %>
-    <%= form.text_area :content %>
+    <!-- 編集 -->
+    <%= form.text_area :content, { id: "markdown-editar"} %>
   </div>
 
   <div class="actions">
