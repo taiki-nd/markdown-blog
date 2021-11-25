@@ -1,24 +1,24 @@
-# README
+# markdown-blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリ概要
+オリジナルアプリに記事投稿機能を実装する際にActionTextを使用するか、markdown形式で行うか判断するために作成
 
-Things you may want to cover:
+## URL
+Qiitaにて作成方法をアウトプットしています。
 
-* Ruby version
+https://qiita.com/taiki-nd/items/e436dd90700787cead1e
 
-* System dependencies
+## デモンストレーション
 
-* Configuration
+``http://localhost:3000/posts``
+[![Image from Gyazo](https://i.gyazo.com/9f9026302b01c5a2f84a538918d7ed86.png)](https://gyazo.com/9f9026302b01c5a2f84a538918d7ed86)
 
-* Database creation
+``http://localhost:3000/posts/new``
+[![Image from Gyazo](https://i.gyazo.com/67fee7f91acaf3d495c6b019a5e48529.png)](https://gyazo.com/67fee7f91acaf3d495c6b019a5e48529)
 
-* Database initialization
+``http://localhost:3000/posts/1``
+[![Image from Gyazo](https://i.gyazo.com/be5978f30e2e843a04f35d2d49314012.jpg)](https://gyazo.com/be5978f30e2e843a04f35d2d49314012)
 
-* How to run the test suite
+``http://localhost:3000/posts``
+[![Image from Gyazo](https://i.gyazo.com/dfed8447a8e277260b882396a82d1885.png)](https://gyazo.com/dfed8447a8e277260b882396a82d1885)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
